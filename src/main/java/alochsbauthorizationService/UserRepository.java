@@ -5,7 +5,7 @@ import java.util.List;
 
 public class UserRepository {
 
-    List<Authorities> getUserAuthorities(String user, String password) {
+    public List<Authorities> getUserAuthorities(String user, String password) {
 
         List<Authorities> userAuthorities = new ArrayList<>();
 
